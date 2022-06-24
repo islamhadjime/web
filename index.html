@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Проект Frotent</title>
+</head>
+<body class="root">
+
+  <nav  id="nabvar">
+    <div class="navbar-content">
+      <div class="navbar-price">
+        <div class="content_up">
+          <h3 class="content-title">
+            Цена
+          </h3>
+          <button class="btn-up" type="button" name="button">
+            +
+          </button>
+        </div>
+        <div class="price-input">
+          <div>
+            <span class="price-input_title" >От</span>
+            <input class="price-input_value" type="number" name="" value="">
+          </div>
+          <div>
+            <span class="price-input_title" >До</span>
+            <input class="price-input_value" type="number" name="" value="">
+          </div>
+        </div>
+      </div>
+      <div class="discount-content">
+        <div class="content_up">
+          <h3 class="content-title">
+            Скидка
+          </h3>
+          <button class="btn-up" type="button" name="button">
+            +
+          </button>
+        </div>
+        <ul class="discount-content_list">
+          <li>
+            <input class="a" type="checkbox" name="" value="">
+            <span>от 10% и выше</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" value="">
+            <span>от 30% и выше</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" value="">
+            <span>от 50% и выше</span>
+          </li>
+          <li>
+            <input type="checkbox" name="" value="">
+            <span>от 70% и выше</span>
+          </li>
+        </ul>
+      </div>
+      <div class="discount-floor">
+        <div class="content_up">
+          <h3 class="content-title">
+            Пол
+          </h3>
+          <button class="btn-up" type="button" name="button">
+            +
+          </button>
+        </div>
+        <div class="discount-floor_list">
+          <li class="discount-floor_item">
+            <input type="checkbox" name="" value="">
+            <span>мужской</span>
+          </li>
+          <li class="discount-floor_item">
+            <input type="checkbox" name="" value="">
+            <span>женский</span>
+          </li>
+        </div>
+      </div>
+      <div class="discount-thesize">
+        <div class="content_up">
+          <h3 class="content-title">
+            Размер
+          </h3>
+          <button class="btn-up" type="button" name="button">
+            +
+          </button>
+        </div>
+        <div class="discount-thesize_list">
+          <input class="discount-list_search" type="text" name="" value="" placeholder="Я ищу">
+          <ul>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+            <li>
+              <input type="checkbox" name="" value="">
+              <span>110-156 (14)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-card" id="content">
+    <div class="content-block">
+      <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+            <a href="#">
+        <div class="card-product">
+          <img src="testBG.jpg" alt="">
+          <div class="card-product-footer">
+            <div class="card-product-price">
+              <p class="p-price">2 945 P</p>
+              <s class="p-old">23122</s>
+              <p class="p-skid">-69%</p>
+            </div>
+            <div class="card-product-city">
+              <p class="p-city">
+                Eropa\Moscov
+              </p>
+            </div>
+            <div class="card-product-list">
+              <ul>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                </li>
+                <li>
+                  <i class="bi bi-star-half"></i>
+                </li>
+                <li>
+                  9231
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+
+
+  <script>
+    const mobMenu = document.querySelector("#mobMenu");
+    const nabvar = document.querySelector("#nabvar");
+    mobMenu.addEventListener("click",()=>{
+      nabvar.style.display = "none";
+    })
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>
